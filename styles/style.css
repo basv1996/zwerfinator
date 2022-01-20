@@ -45,8 +45,8 @@ body {
       position: absolute;
       width: 400px;
      left: 50% ;
-     height: 530px;
-     top: 720px;
+     height: 430px;
+     bottom: 0;
   }
 
   /* dirk sprite */
