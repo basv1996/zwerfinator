@@ -1,166 +1,218 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: #d3eefe;
+  background-color: #d3eefe;
 }
 
 .first-section {
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-  }
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
 
-  .first-section .section1_text {
-    max-width: 710px;
+.first-section .section1_text {
+  max-width: 710px;
+  position: absolute;
+  top: 37%;
+  left: 40%;
+  z-index: 10;
+  background-color: rgba(255,0,0,0.8);
+  padding: 45px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px #000;
+  font-size: 2em;
+  opacity: 1;
+}
+
+.first-section .images-wrapper {
     position: absolute;
-    top: 37%;
-    left: 40%;
-    z-index: 10;
-    background-color: rgba(255,0,0,0.8);
-    padding: 45px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px #000;
-    font-size: 2em;
-    opacity: 1;
-  }
+}
 
-  .first-section .images-wrapper {
-      position: absolute;
-  }
+.Scene_BG{
+  position: relative;
+  height: 100vh;
+
+}
 
 .section_1_bg{
+position: relative;
+top: 300px;
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.litter-images {
+    position: absolute;
+    width: 400px;
+   left: 50%;
+   height: 430px;
+   bottom: 0;
+}
+
+/* dirk sprite */
+.section_1_01 {
+  position: absolute;
+  top: 360px;
+  right: 250px;
+  z-index: 10;
+  left: -160px;
+}
+
+/* vuilniszak */
+.section_1_02, .section_1_07 {
+  position: absolute;
+  top: 500px;
+  right: 400px;
+  z-index: 9;
+  left: -160px;
+}
+
+.section_1_07{
+  opacity: 0;
+}
+
+.section_1_03 {
+  position: absolute;
+  top: 630px;
+  right: 570px;
+  left: -270px;
+  z-index: 6;
+}
+
+.section_1_04 {
+  position: absolute;
+  top: 590px;
+  right: 630px;
+  left: -340px;
+  z-index: 5;
+}
+
+.section_1_05 {
+  position: absolute;
+  top: 595px;
+  right: 760px;
+  z-index: 4;
+  left: -420px;
+}
+
+.section_1_06 {
+  position: absolute;
+  top: 620px;
+  right: 750px;
+  z-index: 3;
+  left: -400px;
+}
+
+/* section 2 voor scene 2 */
+.second-section {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   position: relative;
-  top: 300px;
-    width: 100vw;
-    height: 100vh;
-  }
+}
 
-  .ingredient-images {
-      position: absolute;
-      width: 400px;
-     left: 50% ;
-     height: 430px;
-     bottom: 0;
-  }
+.second-section .section2_text {
+  max-width: 710px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  z-index: 10;
+  background-color: rgba(255,0,0,0.8);
+  padding: 45px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px #000;
+  font-size: 2em;
+  opacity: 1;
+}
 
-  /* dirk sprite */
-  .section_1_01 {
-    position: absolute;
-    top: 360px;
-    right: 250px;
-    z-index: 10;
-    left: -160px;
-  }
-  
-  /* vuilniszak */
-  .section_1_02 {
-    position: absolute;
-    top: 500px;
-    right: 400px;
-    z-index: 9;
-    left: -160px;
-  }
-  
-  .section_1_03 {
-    position: absolute;
-    top: 630px;
-    right: 570px;
-    left: -270px;
-    z-index: 6;
-  }
-  
-  .section_1_04 {
-    position: absolute;
-    top: 590px;
-    right: 630px;
-    left: -340px;
-    z-index: 5;
-  }
-  
-  .section_1_05 {
-    position: absolute;
-    top: 595px;
-    right: 760px;
-    z-index: 4;
-    left: -420px;
-  }
-  
-  .section_1_06 {
-    position: absolute;
-    top: 620px;
-    right: 750px;
-    z-index: 3;
-    left: -400px;
-  }
-  
+.second-section .images-wrapper {
+  position: absolute; 
+  top: 5%;
+  /* overflow: hidden; */
+}
 
+.litter-images2 > *{
+  position: absolute;
+  width: 100px;
+ height: 430px;
+ bottom: 0;
+ opacity: 0;
+}
 
-  .second-section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-  }
+.litter-images2 .section_2_01 {
+  left: 0;
+  bottom: 0;
+}
 
-  .second-section .images-wrapper {
-    position: absolute;
-    display: flex;
-    padding: 200px 0;
-    top: 20%;
-    overflow: hidden;
-  }
+.litter-images2 .section_2_02 {
+  right: 150px;
+  bottom: 0;
+}
 
-  .image-container {
-    overflow: hidden;
-    height: 100%;
-  }
+.litter-images2 .section_2_03 {
+  left: 550px;
+  bottom: 200px;
+}
 
-  .third-section {
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-  }
-  
-  .third-section .images-wrapper {
-    margin-top: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .third-section .images-wrapper img {
-    position: absolute;
-  }
+.litter-images2 .section_2_04 {
+  left: 300px;
+}
 
-  .forth-section {
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-  }
-  
-  .forth-section .images-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .forth-section .images-wrapper img {
-    position: absolute;
-  }
+.litter-images2 .section_2_05 {
+  left: 400px;
+  bottom: 10px;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 100%;
+}
+
+.third-section {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.third-section .images-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-section .images-wrapper img {
+  position: absolute;
+}
+
+.forth-section {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.forth-section .images-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forth-section .images-wrapper img {
+  position: absolute;
+}

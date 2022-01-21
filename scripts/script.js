@@ -27,23 +27,24 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: Power3.easeInOut
     })
     .to('.section_1_04', 4, {
-        // y: -110,
         x: 120,
         autoAlpha: 0,
         ease: Power3.easeInOut
     })
     .to('.section_1_05', 4, {
-       
         x: 250,
         autoAlpha: 0,
         ease: Power3.easeInOut
     })
     .to('.section_1_06', 4, {
-      
         x: 250,
         autoAlpha: 0,
         ease: Power3.easeInOut
     }, '-=4')
+    .to('.section_1_07', 4, {
+        autoAlpha: 1
+    }, '-=4')
+
 
     
    
@@ -62,10 +63,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // section 2
 
     let timeline2 = new TimelineMax()
-    timeline2.to('.top .image-container', 4, {
-        height: 0
-        // in de css staat de height op 100% en hier verander ik de hoogte naar 0%
+    timeline2 
+    .from('.section2_text', 4, {
+        autoAlpha: 0
     })
+    .to('.section_2_01', 4, {
+        autoAlpha: 1
+    })
+    .to('.section_2_02', 4, {
+        autoAlpha: 1
+    })
+    .to('.section_2_03', 4, {
+        autoAlpha: 1
+    })
+    .to('.section_2_04', 4, {
+        autoAlpha: 1
+    })
+    .to('.section_2_05', 4, {
+        autoAlpha: 1
+    })
+    .to('.section_2_06', 4, {
+        autoAlpha: 1
+    })
+   
 
     let Scene2 = new ScrollMagic.Scene({
         triggerElement: '.second-section',
