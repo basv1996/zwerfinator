@@ -145,16 +145,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let timeline4 = new TimelineMax()
     timeline4
-    .to('.section_3_bg_1', 4, {
+    .to('.section_4_bg_1', 4, {
         autoAlpha: 0
     })
-    .from('.section_3_bg_2', 4, {
+    .from('.section_4_bg_2', 4, {
         autoAlpha: 0
     })
     .from('.section4_text', 4, {
         autoAlpha: 0
     }, '-=4')
-    .from('.section_3_bg_3', 4, {
+    .from('.section_4_bg_3', 4, {
         autoAlpha: 0
     })
    
