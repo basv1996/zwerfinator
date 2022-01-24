@@ -169,4 +169,87 @@ document.addEventListener('DOMContentLoaded', () => {
     .setPin('.forth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
     .addTo(controller)
 
+
+ // section 5
+
+ let timeline5 = new TimelineMax()
+ timeline5
+ .from('.section5_text', 4, {
+    autoAlpha: 0
+})
+.to('.section_5_02', 4, {
+    y: 510,
+    x: -250,
+    ease: Power3.easeInOut
+})
+.to('.section_5_03', 4, {
+    y: 510,
+    x: -290,
+    ease: Power3.easeInOut
+})
+.to('.section_5_04', 4, {
+    y: 520,
+    x: -350,
+    ease: Power3.easeInOut
+})
+.to('.section_5_05', 4, {
+    y: 510,
+    x: -450,
+    ease: Power3.easeInOut
+})
+.to('.section_5_06', 4, {
+    y: 550,
+    x: -400,
+    ease: Power3.easeInOut
+})
+.to('.section_5_07', 4, {
+    y: 600,
+    x: -420,
+    ease: Power3.easeInOut   
+})
+.to('.section_5_08', 4, {
+    y: 570,
+    x: -450,
+    ease: Power3.easeInOut   
+})
+
+
+ let Scene5 = new ScrollMagic.Scene({
+     triggerElement: '.fifth-section',
+     duration: '100%',
+     triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+     offset: '0' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+ })
+ .setTween(timeline5) // voeg de timeline variabele toe als 
+ .setPin('.fifth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+ .addTo(controller)
+
+        // section 6
+
+        let timeline6 = new TimelineMax()
+        timeline6
+        .from('.section6_text', 4, {
+            autoAlpha: 0
+        })
+        .from('.section_4_bg_2', 4, {
+            autoAlpha: 0
+        })
+        .from('.section4_text', 4, {
+            autoAlpha: 0
+        }, '-=4')
+        .from('.section_4_bg_3', 4, {
+            autoAlpha: 0
+        })
+       
+    
+        let Scene6 = new ScrollMagic.Scene({
+            triggerElement: '.sixth-section',
+            duration: '100%',
+            triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+            offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+        })
+        .setTween(timeline6) // voeg de timeline variabele toe als 
+        .setPin('.sixth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+        .addTo(controller)
+
 })
