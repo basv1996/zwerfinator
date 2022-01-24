@@ -100,30 +100,36 @@ document.addEventListener('DOMContentLoaded', () => {
     // Section 3
 
        let timeline3 = new TimelineMax()
-       timeline3.to('.section_3_01', 4, {
-           y: -250,
-           ease: Power3.easeInOut
-       })
-       .to('.section_3_02', 4, {
-        y: -200,
-        ease: Power3.easeInOut
-        }, '-=4')
-        .to('.section_3_03', 4, {
-        y: -100,
-        ease: Power3.easeInOut
-        }, '-=4')
-        .to('.section_3_04', 4, {
-        y: 0,
-        ease: Power3.easeInOut
-        }, '-=4')
-        .to('.section_3_05', 4, {
-        y: 150,
-        ease: Power3.easeInOut
-        }, '-=4')
-        .to('.section_3_06', 4, {
-        y: 250,
-        ease: Power3.easeInOut
-        }, '-=4')
+       timeline3
+       .from('.section3_text', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_01', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_02', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_03', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_04', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_05', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_06', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_07', 4, {
+        autoAlpha: 0
+    })
+    .from('.section_3_08', 4, {
+        autoAlpha: 0
+    })
+           
+    
    
        let Scene3 = new ScrollMagic.Scene({
            triggerElement: '.third-section',
@@ -138,18 +144,20 @@ document.addEventListener('DOMContentLoaded', () => {
        // section 4
 
     let timeline4 = new TimelineMax()
-    timeline4.to('.section_4_01', 4, {
+    timeline4
+    .to('.section_3_bg_1', 4, {
         autoAlpha: 0
     })
-    .from('.section_4_02', 4, {
+    .from('.section_3_bg_2', 4, {
+        autoAlpha: 0
+    })
+    .from('.section4_text', 4, {
         autoAlpha: 0
     }, '-=4')
-    .from('.section_4_03', 4, {
+    .from('.section_3_bg_3', 4, {
         autoAlpha: 0
     })
-    .from('.section_4_04', 4, {
-        autoAlpha: 0
-    })
+   
 
     let Scene4 = new ScrollMagic.Scene({
         triggerElement: '.forth-section',
