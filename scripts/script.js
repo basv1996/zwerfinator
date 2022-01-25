@@ -367,4 +367,41 @@ document.addEventListener('DOMContentLoaded', () => {
              .setPin('.eleventh-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
              .addTo(controller)
 
+                // section 12
+
+                let timeline12 = new TimelineMax()
+                timeline12
+                .from('.section12_text', 4, {
+                    autoAlpha: 0
+                })
+                .to('.section_12_08', 4, {
+                    autoAlpha: 0
+                })      
+                .to('.section_12_09', 4, {
+                    autoAlpha: 0
+                })  
+                .to('.section_12_10', 4, {
+                    autoAlpha: 0
+                })  
+                .to('.section_12_11', 4, {
+                    autoAlpha: 0
+                }) 
+                .to('.section_12_12', 4, {
+                    autoAlpha: 0
+                })  
+                .to('.section_12_06', 4, {
+                    autoAlpha: 0
+                }) 
+                       
+                
+                let Scene12 = new ScrollMagic.Scene({
+                    triggerElement: '.twelveth-section',
+                    duration: '100%',
+                    triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+                    offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                })
+                .setTween(timeline12) // voeg de timeline variabele toe als 
+                .setPin('.twelveth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+                .addTo(controller)
+
 })
