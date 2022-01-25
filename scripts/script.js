@@ -309,20 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .to('.section_9_bg', 4, {
                 filter: "blur(4px)"
-            })
-            .from('.section_8_04', 4, {
-                autoAlpha: 0
-            })
-            .from('.section_8_05', 4, {
-                autoAlpha: 0
-            })
-            .from('.section_8_06', 4, {
-                autoAlpha: 0
-            })
-            .from('.section_8_07', 4, {
-                autoAlpha: 0
-            })
-            
+            })    
             
             let Scene9 = new ScrollMagic.Scene({
                 triggerElement: '.nineth-section',
@@ -332,6 +319,31 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .setTween(timeline9) // voeg de timeline variabele toe als 
             .setPin('.nineth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+            .addTo(controller)
+
+            // section 10
+
+            let timeline10 = new TimelineMax()
+            timeline10
+            .from('.section10_text', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_10_01', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_10_02', 4, {
+                autoAlpha: 0
+            })
+            
+            
+            let Scene10 = new ScrollMagic.Scene({
+                triggerElement: '.tenth-section',
+                duration: '100%',
+                triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+            })
+            .setTween(timeline10) // voeg de timeline variabele toe als 
+            .setPin('.tenth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
             .addTo(controller)
 
 })
