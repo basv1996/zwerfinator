@@ -231,17 +231,16 @@ document.addEventListener('DOMContentLoaded', () => {
         .from('.section6_text', 4, {
             autoAlpha: 0
         })
-        .from('.section_4_bg_2', 4, {
+        .to('.section_6_bg', 4, {
             autoAlpha: 0
         })
-        .from('.section4_text', 4, {
-            autoAlpha: 0
-        }, '-=4')
-        .from('.section_4_bg_3', 4, {
+        .to('.section6_text', 4, {
             autoAlpha: 0
         })
-       
-    
+        .from('.section_6_bg_2', 4, {
+            autoAlpha: 0
+        })
+            
         let Scene6 = new ScrollMagic.Scene({
             triggerElement: '.sixth-section',
             duration: '100%',
@@ -251,5 +250,88 @@ document.addEventListener('DOMContentLoaded', () => {
         .setTween(timeline6) // voeg de timeline variabele toe als 
         .setPin('.sixth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
         .addTo(controller)
+
+          // section 7
+
+          let timeline7 = new TimelineMax()
+          timeline7
+          .from('.section7_text', 4, {
+              autoAlpha: 0
+          })
+
+          let Scene7 = new ScrollMagic.Scene({
+              triggerElement: '.seventh-section',
+              duration: '100%',
+              triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+              offset: '0' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+          })
+          .setTween(timeline7) // voeg de timeline variabele toe als 
+          .setPin('.seventh-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+          .addTo(controller)
+
+            // section 8
+
+            let timeline8 = new TimelineMax()
+            timeline8
+            .from('.section8_text', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_04', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_05', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_06', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_07', 4, {
+                autoAlpha: 0
+            })
+            
+            
+            let Scene8 = new ScrollMagic.Scene({
+                triggerElement: '.eight-section',
+                duration: '100%',
+                triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+            })
+            .setTween(timeline8) // voeg de timeline variabele toe als 
+            .setPin('.eight-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+            .addTo(controller)
+
+            // section 9
+
+            let timeline9 = new TimelineMax()
+            timeline9
+            .from('.section9_text', 4, {
+                autoAlpha: 0
+            })
+            .to('.section_9_bg', 4, {
+                filter: "blur(4px)"
+            })
+            .from('.section_8_04', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_05', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_06', 4, {
+                autoAlpha: 0
+            })
+            .from('.section_8_07', 4, {
+                autoAlpha: 0
+            })
+            
+            
+            let Scene9 = new ScrollMagic.Scene({
+                triggerElement: '.nineth-section',
+                duration: '100%',
+                triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+            })
+            .setTween(timeline9) // voeg de timeline variabele toe als 
+            .setPin('.nineth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+            .addTo(controller)
 
 })

@@ -202,17 +202,6 @@ top: 300px;
 	transform: translateX(-50%);
 }
 
-.third-section .images-wrapper {
-  /* position: relative; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-
-/* .third-section .images-wrapper img {
-  position: absolute;
-} */
-
 .third-section .litter-images3 .section_3_01 {
 top: 0;
 }
@@ -340,6 +329,121 @@ top: 0;
   align-items: center;
 }
 
+.sixth-section .images-wrapper > * {
+	max-width: 80vw;
+}
+
 .sixth-section .images-wrapper img {
   position: absolute;
+}
+
+.seventh-section {
+  width: 100%;
+  /* height: 150vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.eight-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.eight-section .images-wrapper {
+  position: relative;
+}
+
+.eight-section .litter-images8 {
+	position: relative;
+	bottom: 300px;
+	width: 500px;
+  height: 280px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.eight-section .litter-images8 > * {
+	position: absolute;
+  max-width: 250px;
+}
+
+.section_8_01 {
+
+}
+
+.section_8_02 {
+	left: 0;
+	width: 150px;
+	bottom: 0;
+}
+
+.section_8_03 {
+	right: 100px;
+	width: 150px;
+	bottom: 0;
+}
+
+.section_8_04, .section_8_05, .section_8_06, .section_8_07 {
+	width: 60px;
+	bottom: 0;
+}
+
+.section_8_04{
+  left: 50px;
+}
+.section_8_05{
+  left: 100px;
+}
+.section_8_06{
+  left: 150px;
+}
+.section_8_07{
+  left: 250px;
+}
+
+.nineth-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.nineth-section .images-wrapper {
+  position: relative;
+}
+
+.nineth-section .section_9_bg{
+  filter: blur(50%);
+}
+
+.nineth-section .data_drankverpakkingen {
+	position: absolute;
+	left: 100px;
+	background-color: green;
+	top: 50%;
+	padding: 1em;
+	box-shadow: 5px 5px 5px;
+}
+
+.nineth-section .litter-images9 {
+	position: relative;
+	bottom: 300px;
+	width: 500px;
+  height: 280px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.nineth-section .litter-images9 > * {
+	position: absolute;
+  max-width: 250px;
 }
