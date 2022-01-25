@@ -178,38 +178,38 @@ document.addEventListener('DOMContentLoaded', () => {
     autoAlpha: 0
 })
 .to('.section_5_02', 4, {
-    y: 510,
-    x: -250,
+    y: 270,
+    x: -150,
     ease: Power3.easeInOut
 })
 .to('.section_5_03', 4, {
-    y: 510,
-    x: -290,
+    y: 270,
+    x: -190,
     ease: Power3.easeInOut
 })
 .to('.section_5_04', 4, {
-    y: 520,
-    x: -350,
+    y: 280,
+    x: -220,
     ease: Power3.easeInOut
 })
 .to('.section_5_05', 4, {
-    y: 510,
-    x: -450,
+    y: 290,
+    x: -180,
     ease: Power3.easeInOut
 })
 .to('.section_5_06', 4, {
-    y: 550,
-    x: -400,
+    y: 240,
+    x: -280,
     ease: Power3.easeInOut
 })
 .to('.section_5_07', 4, {
-    y: 600,
-    x: -420,
+    y: 230,
+    x: -320,
     ease: Power3.easeInOut   
 })
 .to('.section_5_08', 4, {
-    y: 570,
-    x: -450,
+    y: 245,
+    x: -350,
     ease: Power3.easeInOut   
 })
 
