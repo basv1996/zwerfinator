@@ -482,3 +482,16 @@ top: 0;
 	bottom: 0;
 	max-width: 650px;
 }
+
+.eleventh-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.eleventh-sectionn .images-wrapper {
+  position: relative;
+}
