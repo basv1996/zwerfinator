@@ -346,4 +346,25 @@ document.addEventListener('DOMContentLoaded', () => {
             .setPin('.tenth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
             .addTo(controller)
 
+             // section 11
+
+             let timeline11 = new TimelineMax()
+             timeline11
+             .from('.section11_text', 4, {
+                 autoAlpha: 0
+             })
+             .from('.section_11_01', 4, {
+                 autoAlpha: 0
+             })             
+             
+             let Scene11 = new ScrollMagic.Scene({
+                 triggerElement: '.eleventh-section',
+                 duration: '100%',
+                 triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
+                 offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+             })
+             .setTween(timeline11) // voeg de timeline variabele toe als 
+             .setPin('.eleventh-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
+             .addTo(controller)
+
 })

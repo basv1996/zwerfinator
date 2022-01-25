@@ -492,6 +492,29 @@ top: 0;
   position: relative;
 }
 
-.eleventh-sectionn .images-wrapper {
+.eleventh-section .images-wrapper {
+  position: relative;
+}
+
+.eleventh-section .litter-images11 {
+	position: relative;
+	top: 50%;
+	width: 550px;
+	height: 360px;
+	left: 50%;
+	transform: translate(0%, -100%);
+	overflow: hidden;
+}
+
+.twelveth-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.twelveth-section .images-wrapper {
   position: relative;
 }
