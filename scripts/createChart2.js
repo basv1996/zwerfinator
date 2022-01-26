@@ -8,7 +8,7 @@ const width = 450,
 const radius = Math.min(width, height) / 2 - margin;
 
 // append the svg object to the div called 'my_dataviz'
-const svg = d3.select("#my_dataviz2")
+const svg = d3.select("#my_dataviz3")
   .append("svg")
     .attr("width", width)
     .attr("height", height)
@@ -17,7 +17,17 @@ const svg = d3.select("#my_dataviz2")
 
 // create 2 data_set
 const data1 = {a: 9, b: 20, c:30, d:8, e:12}
-const data2 = {a: 6, b: 16, c:20, d:14, e:19, f:12}
+//const data2 = {a: 6, b: 16, c:20, d:14, e:19, f:12}
+
+// d3.json('../data/data_small.json').then((json) => {
+//     data = json
+//     update(data)
+// })
+
+d3.json("../data/data_small.json", function(data) {
+    console.log(data)
+    console.log("hello")
+})
 
 // set the color scale
 const color = d3.scaleOrdinal()

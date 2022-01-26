@@ -7,7 +7,6 @@ import removeStripe from './filters/removeStripes.js'
 
 let SoortColumn = "Soort" 
 
-
 function parseData() {
     //fetch('../data/Onderzoek_Drankverpakkingen_2017-2021.json')
     fetch('../data/data_small.json') //collect the data
@@ -36,13 +35,22 @@ function parseData() {
         // In deze .then() kunnen we vervolgens iets doen met de data, bijvoorbeeld renderen in een DOM   
         cleanData.map((item) => {
             convertToString(cleanData, SoortColumn)
+            // data123 = item[SoortColumn]
+            // let count = {}
+            // data123.forEach(function(i){
+            //     count[i] = (count[i] || 0) + 1
+            //     console.log("count: ", count)
+            // })
                 // let ptje = document.createElement('p')
                 // let divje = document.createElement('div')
-                // ptje.innerHTML = item[SoortColumn]
+                // ptje.innerHTML = item.Soort
                 // document.querySelector('#my_dataviz').appendChild(divje)
                 // divje.appendChild(ptje)
-            console.log(item[SoortColumn])
-            return item
+            // console.log(item[SoortColumn])
+            // console.log(item)
+            console.log(item.Soort)
+            //console.log(typeof(item[SoortColumn])
+            return item.Soort
         })
        
     })
