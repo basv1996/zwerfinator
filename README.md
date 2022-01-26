@@ -11,8 +11,7 @@
 ## Opdracht
 Zwerfinator houdt zich bezig met het bestrijden van zwerfafval en plastic vervuiling aan de hand van 
 data. Door van elk stuk opgeraapt zwerfafval een foto te maken en daar later een aantal datatags toe 
-te voegen wordt er data verzameld waarmee de problematiek op meerdere manieren kan worden 
-aangepakt.  
+te voegen wordt er data verzameld waarmee de problematiek op meerdere manieren kan worden aangepakt.  
 
 
 ## Table of Contents
