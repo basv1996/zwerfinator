@@ -4,9 +4,7 @@
   }
   
   .forth-section .images-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   position: unset;
   }
   
   .forth-section .images-wrapper img {

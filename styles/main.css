@@ -50,5 +50,11 @@
   .Scene_BG{
     position: relative;
     height: 100vh;
-  
+  }
+
+  .images-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }

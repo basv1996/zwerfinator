@@ -1,8 +1,4 @@
 /* section 9 for scene 9 */
- 
-  .nineth-section .images-wrapper {
-    position: relative;
-  }
   
   .nineth-section .data_drankverpakkingen {
       position: absolute;
@@ -18,7 +14,7 @@
       bottom: 300px;
       width: 500px;
       height: 280px;
-      left: 50%;
+      left: 40%;
       transform: translateX(-50%);
   }
   
