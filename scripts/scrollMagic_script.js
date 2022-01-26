@@ -4,16 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let timeline = new TimelineMax()
     timeline 
-    // .from('.section_1_01', 4, {
-    //     y: -100,
-    //     x: -150,
-    //     ease: Power3.easeInOut
-    // })
-    // .from('.section_1_02', 4, {
-    //     y: -150,
-    //     x: -250,
-    //     ease: Power3.easeInOut
-    // }, '-=4') 
     // heb -=4 toegevoegd als offset waarde, 
     // dit zorgt ervoor dat deze animatie 4 seconde eerder begint 
     // dan de .from animatie die ervoor is gestopt
@@ -297,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 triggerElement: '.nineth-section',
                 duration: '100%',
                 triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                offset: '50' // de animatie start als de eerste sectie 50px van de top van het scherm af zit
             })
             .setTween(timeline9) // voeg de timeline variabele toe als 
             .setPin('.nineth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest

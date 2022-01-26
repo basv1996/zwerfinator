@@ -1,15 +1,13 @@
 /* section 9 for scene 9 */
   
-
-  
-  .nineth-section .litter-images9 {
-      position: relative;
-      bottom: 300px;
-      width: 500px;
-      height: 280px;
-      left: 40%;
-      transform: translateX(-50%);
-  }
+.nineth-section .litter-images9 {
+	position: absolute;
+	bottom: 50px;
+	width: 500px;
+	height: 280px;
+	left: 40%;
+	transform: translateX(-50%);
+}
   
   .nineth-section .litter-images9 > * {
       position: absolute;

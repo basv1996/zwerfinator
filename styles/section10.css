@@ -1,13 +1,13 @@
 /* section 10 for scene 10 */
-  .tenth-section .litter-images10 {
-      position: relative;
-      bottom: 404px;
-      width: 1000px;
-      height: 400px;
-      left: 50%;
-      transform: translateX(-50%);
-      overflow: hidden;
-  }
+.tenth-section .litter-images10 {
+	position: absolute;
+	bottom: 0;
+	width: 1000px;
+	height: 400px;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: hidden;
+}
   
   .tenth-section .litter-images10 > * {
       position: absolute;
