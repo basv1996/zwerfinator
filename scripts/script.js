@@ -251,24 +251,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .setPin('.sixth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
         .addTo(controller)
 
-          // section 7
-
-          let timeline7 = new TimelineMax()
-          timeline7
-          .from('.section7_text', 4, {
-              autoAlpha: 0
-          })
-
-          let Scene7 = new ScrollMagic.Scene({
-              triggerElement: '.seventh-section',
-              duration: '100%',
-              triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-              offset: '0' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
-          })
-          .setTween(timeline7) // voeg de timeline variabele toe als 
-          .setPin('.seventh-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
-          .addTo(controller)
-
             // section 8
 
             let timeline8 = new TimelineMax()

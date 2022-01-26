@@ -17,21 +17,26 @@ body {
 }
 
 .first-section .section1_text, .section_text {
-  max-width: 710px;
+  max-width: 30vw;
   position: absolute;
   top: 10%;
   left: 40%;
   z-index: 10;
-  background-color: rgba(255,0,0,0.8);
+  background-color: rgba(255,255,255,0.8);
   padding: 45px;
   border-radius: 15px;
   box-shadow: 4px 4px 4px #000;
-  font-size: 2em;
+  font-size: 1.2em;
   opacity: 1;
 }
 
+.section_text ul {
+	text-align: left;
+	list-style-type: disclosure-closed;
+}
+
 .first-section .section1_text {
-  top: 37%;
+  top: 47%;
 }
 
 .first-section .images-wrapper {
@@ -132,7 +137,6 @@ top: 300px;
 .second-section .images-wrapper {
   position: absolute; 
   top: 5%;
-  /* overflow: hidden; */
 }
 
 .litter-images2 > *{
@@ -180,20 +184,6 @@ top: 300px;
   text-align: center;
   position: relative;
 }
-
-/* .third-section .section3_text {
-  max-width: 710px;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  z-index: 10;
-  background-color: rgba(255,0,0,0.8);
-  padding: 45px;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px #000;
-  font-size: 2em;
-  opacity: 1;
-} */
 
 .third-section .litter-images3 {
 	position: absolute;
@@ -247,20 +237,6 @@ top: 0;
   flex-direction: column;
   text-align: center;
   position: relative;
-}
-
-.forth-section .section4_text {
-  max-width: 710px;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  z-index: 10;
-  background-color: rgba(255,0,0,0.8);
-  padding: 45px;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px #000;
-  font-size: 2em;
-  opacity: 1;
 }
 
 .forth-section .images-wrapper {
@@ -349,6 +325,8 @@ top: 0;
 .eight-section .images-wrapper {
   position: relative;
 }
+
+
 
 .eight-section .litter-images8 {
 	position: relative;
