@@ -1,5 +1,17 @@
 /* section 12 for scene 12 */
-  
+
+.data_drankverpakkingen {
+	position: absolute;
+	left: 1em;
+	top: 50%;
+	box-shadow: 5px 5px 5px;
+	transform: translateY(-50%);
+}
+
+.data_drankverpakkingen img {
+	width: 25vw;
+	background-color: rgba(255,255,255,0.8);
+}
   .litter-images12 {
       position: absolute;
       width: 90%;

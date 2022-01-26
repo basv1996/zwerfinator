@@ -1,13 +1,6 @@
 /* section 9 for scene 9 */
   
-  .nineth-section .data_drankverpakkingen {
-      position: absolute;
-      left: 100px;
-      background-color: green;
-      top: 50%;
-      padding: 1em;
-      box-shadow: 5px 5px 5px;
-  }
+
   
   .nineth-section .litter-images9 {
       position: relative;
