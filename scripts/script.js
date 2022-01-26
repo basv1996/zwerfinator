@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         triggerElement: '.forth-section',
         duration: '100%',
         triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-        offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+        offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
     })
     .setTween(timeline4) // voeg de timeline variabele toe als 
     .setPin('.forth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
             triggerElement: '.sixth-section',
             duration: '100%',
             triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-            offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+            offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
         })
         .setTween(timeline6) // voeg de timeline variabele toe als 
         .setPin('.sixth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 triggerElement: '.eight-section',
                 duration: '100%',
                 triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
             })
             .setTween(timeline8) // voeg de timeline variabele toe als 
             .setPin('.eight-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 triggerElement: '.tenth-section',
                 duration: '100%',
                 triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-                offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
             })
             .setTween(timeline10) // voeg de timeline variabele toe als 
             .setPin('.tenth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
                  triggerElement: '.eleventh-section',
                  duration: '100%',
                  triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-                 offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                 offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
              })
              .setTween(timeline11) // voeg de timeline variabele toe als 
              .setPin('.eleventh-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     triggerElement: '.twelveth-section',
                     duration: '100%',
                     triggerHook: 0, // als de eerste sectie de bovenkant raakt van het scherm begin dan met animeren
-                    offset: '100' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
+                    offset: '00' // de animatie start als de eerste sectie 100px van de top van het scherm af zit
                 })
                 .setTween(timeline12) // voeg de timeline variabele toe als 
                 .setPin('.twelveth-section') // ga niet voorbij de eerste sectie voordat de animatie is geweest

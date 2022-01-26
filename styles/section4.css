@@ -1,0 +1,14 @@
+/* section 4 for scene 4 */
+.forth-section {
+    height: 150vh;
+  }
+  
+  .forth-section .images-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .forth-section .images-wrapper img {
+    position: absolute;
+  }

@@ -1,0 +1,25 @@
+/* section 6 for scene 6 */
+.sixth-section {
+    height: 150vh;
+  }
+  
+  .sixth-section .litter-images6 {
+      position: absolute;
+      width: 80vw;
+      top: 280px;
+      left: -150px;
+  }
+  
+  .sixth-section .images-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sixth-section .images-wrapper > * {
+      max-width: 80vw;
+  }
+  
+  .sixth-section .images-wrapper img {
+    position: absolute;
+  }

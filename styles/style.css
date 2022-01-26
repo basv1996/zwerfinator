@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 
-.first-section .section1_text, .section_text {
+.section_text {
   max-width: 30vw;
   position: absolute;
   top: 10%;
@@ -168,11 +168,6 @@ top: 300px;
 .litter-images2 .section_2_05 {
   left: 400px;
   bottom: 10px;
-}
-
-.image-container {
-  overflow: hidden;
-  height: 100%;
 }
 
 .third-section {

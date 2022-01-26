@@ -1,0 +1,24 @@
+/* section 5 for scene 5 */
+ 
+  .fifth-section .litter-images5 {
+      position: absolute;
+      bottom: 0;
+  }
+  
+  .fifth-section .images-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fifth-section .images-wrapper .section_5_01 {
+    position: relative;
+    width: 500px;
+  }
+  
+  .fifth-section .images-wrapper .litter-images5 > .section_5_02, .section_5_03, .section_5_04, .section_5_05, .section_5_06, .section_5_07, .section_5_08 {
+      width: 30px;
+      bottom: 360px;
+      position: absolute;
+      left: 170px;
+  }

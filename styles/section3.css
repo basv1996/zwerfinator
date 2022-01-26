@@ -1,0 +1,45 @@
+/* section 3 for scene 3 */
+
+  .third-section .litter-images3 {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .third-section .litter-images3 .section_3_01 {
+  top: 0;
+  }
+  
+  .litter-images3 > .section_3_02, .section_3_03, .section_3_04, .section_3_05, .section_3_06, .section_3_07, .section_3_08 {
+    width: 50px;
+    position: relative;
+    }
+  
+    .section_3_02 {
+      bottom: 40px;
+    }
+  
+    .section_3_03 {
+      bottom: 80px;
+    }
+  
+    .section_3_04 {
+      bottom: 60px;
+    }
+  
+    .section_3_05 {
+      bottom: 70px;
+      left: 20px;
+    }
+  
+    .section_3_06 {
+      bottom: 70px;
+    }
+  
+    .section_3_07 {
+      bottom: 60px;
+    }
+    .section_3_08 {
+      bottom: 80px;
+    }

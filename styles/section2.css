@@ -1,0 +1,46 @@
+/* section 2 for scene 2 */
+
+.second-section {
+    height: 150vh;
+  }
+  
+  .second-section .section2_text {
+    top: 10%;
+    left: 40%;
+  }
+  
+  .second-section .images-wrapper {
+    position: absolute; 
+    top: 5%;
+  }
+  
+  .litter-images2 > *{
+    position: absolute;
+    width: 100px;
+   height: 240px;
+   bottom: 0;
+   opacity: 0;
+  }
+  
+  .litter-images2 .section_2_01 {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .litter-images2 .section_2_02 {
+    right: 150px;
+    bottom: 0;
+  }
+  
+  .litter-images2 .section_2_03 {
+    left: 450px;
+  }
+  
+  .litter-images2 .section_2_04 {
+    left: 300px;
+  }
+  
+  .litter-images2 .section_2_05 {
+    left: 400px;
+    bottom: 10px;
+  }

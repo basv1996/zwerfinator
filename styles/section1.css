@@ -1,0 +1,81 @@
+/* section 1 for scene 1 */
+.first-section {
+    height: 150vh;
+  }
+  
+  .first-section .section1_text {
+    top: 47%;
+  }
+  
+  .first-section .images-wrapper {
+      position: absolute;
+  }
+  
+  
+  .section_1_bg{
+  position: relative!important;
+  top: 300px;
+    height: 100vh;
+  }
+  
+  .litter-images {
+      position: absolute;
+      width: 400px;
+     left: 50%;
+     height: 430px;
+     bottom: 0;
+  }
+  
+  /* dirk sprite */
+  .section_1_01 {
+    position: absolute;
+    top: 360px;
+    right: 250px;
+    z-index: 10;
+    left: -160px;
+  }
+  
+  /* vuilniszak */
+  .section_1_02, .section_1_07 {
+    position: absolute;
+    top: 500px;
+    right: 400px;
+    z-index: 9;
+    left: -160px;
+  }
+  
+  .section_1_07{
+    opacity: 0;
+  }
+  
+  .section_1_03 {
+    position: absolute;
+    top: 630px;
+    right: 570px;
+    left: -270px;
+    z-index: 6;
+  }
+  
+  .section_1_04 {
+    position: absolute;
+    top: 590px;
+    right: 630px;
+    left: -340px;
+    z-index: 5;
+  }
+  
+  .section_1_05 {
+    position: absolute;
+    top: 595px;
+    right: 760px;
+    z-index: 4;
+    left: -420px;
+  }
+  
+  .section_1_06 {
+    position: absolute;
+    top: 620px;
+    right: 750px;
+    z-index: 3;
+    left: -400px;
+  }

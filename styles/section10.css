@@ -1,0 +1,26 @@
+/* section 10 for scene 10 */
+
+  .tenth-sectionn .images-wrapper {
+    position: relative;
+  }
+  
+  .tenth-section .litter-images10 {
+      position: relative;
+      bottom: 404px;
+      width: 1000px;
+      height: 400px;
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: hidden;
+  }
+  
+  .tenth-section .litter-images10 > * {
+      position: absolute;
+    max-width: 500px;
+  }
+  
+  .tenth-section .litter-images10 .section_10_02 {
+      left: 0;
+      bottom: 0;
+      max-width: 600px;
+  }
