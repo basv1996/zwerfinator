@@ -337,16 +337,6 @@ top: 0;
   position: absolute;
 }
 
-.seventh-section {
-  width: 100%;
-  /* height: 150vh; */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
-}
-
 .eight-section {
   width: 100%;
   display: flex;
@@ -372,10 +362,6 @@ top: 0;
 .eight-section .litter-images8 > * {
 	position: absolute;
   max-width: 250px;
-}
-
-.section_8_01 {
-
 }
 
 .section_8_02 {
