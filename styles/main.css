@@ -11,11 +11,6 @@
 @import url(section12.css);
 
 @font-face {
-  font-family: anadelemo;
-  src: url(../fonts/andalemo.ttf);
-}
-
-@font-face {
   font-family: LemonMilk;
   src: url(../fonts/LEMONMILK-Regular.otf);
 }
@@ -24,7 +19,6 @@
     margin: 0;
     padding: 0;
   }
-
 
   body {
     background-color: #d3eefe;
